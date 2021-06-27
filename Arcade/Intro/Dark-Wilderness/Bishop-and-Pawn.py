@@ -14,3 +14,5 @@ def bishopAndPawn(bishop, pawn):
             [0,1,0,1,0,1,0,1]
             ]
     return board[letters[bishop[0]]][numbers[bishop[1]]]==board[letters[pawn[0]]][numbers[pawn[1]]]
+
+# Time: O(1)
