@@ -20,3 +20,5 @@ def knapsackLight(value1, weight1, value2, weight2, maxW):
             return value2
     else:
         return value1+value2
+  
+# Time: O(1)
